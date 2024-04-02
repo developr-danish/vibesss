@@ -36,7 +36,14 @@ nav img{
   outline: none !important;
   border: none !important;
 }
+.carousel-indicators [data-bs-target]{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: var(--heading-color) !important;
+}
 /* navbar part start end here */
+
 
 /* product part start from here */
 .content {
