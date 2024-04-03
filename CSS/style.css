@@ -19,7 +19,7 @@ body{
   width: 100%;
   height: 100%;
   padding: 0.5rem 10rem;
-  background: linear-gradient(to right, var(--heading-color) , var(--subheading-color)) ;
+  background: linear-gradient(to right, var(--heading-color) 50%, var(--subheading-color)) ;
 }
 .topbar p{
   margin: 0;
