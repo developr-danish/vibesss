@@ -40,7 +40,7 @@ $(function() {
                 margin: 20,
                 stagePadding: 0,
                 nav: true,
-                items: 4
+                items: 3
               }
             }
           });            
