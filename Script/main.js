@@ -31,6 +31,10 @@ $(function() {
             dots: true,
             pauseOnHover: true,
             responsive:{
+              0:{
+                items:2,
+                nav:true
+              },
               600:{
                 margin: 20,
                 nav: true,
