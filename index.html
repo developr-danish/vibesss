@@ -14,12 +14,13 @@
 </head>
 <body>
 
-  <div class="topbar d-flex justify-content-between">
+    <div class="topbar d-flex justify-content-between">
     <div class="social-details d-flex gap-3 text-white ">
       <p>Follow US</p>
       <a href=""><i class="bi bi-facebook"></i></a>
       <a href=""><i class="bi bi-instagram"></i></a>
-      <a href=""><i class="bi bi-twitter"></i></a>
+      <a href=""><i class="bi bi-pinterest"></i></a>
+      <a href=""><i class="bi bi-linkedin"></i></a>
     </div>
     <div class="help-section d-flex">
       <a href="">
@@ -32,86 +33,11 @@
         <i class="me-2 fa-solid fa-gift"></i>Gift Card
       </a>
     </div>
-  </div>
+    </div>
 
-    <nav class="navbar shadow navbar-expand-lg">
-        <div class="container">
-         
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-start flex-grow-1 gap-4 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Skin
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Face Moisturizer & Day Cream</a></li>
-                    <li><a class="dropdown-item" href="#">Night Cream</a></li>
-                    <li><a class="dropdown-item" href="#">Face Oils</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hair
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Shampoo</a></li>
-                      <li><a class="dropdown-item" href="#">Dry Shampoo</a></li>
-                      <li><a class="dropdown-item" href="#">Conditioner</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Fragrance
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Perfumes (EDT / EDP)</a></li>
-                      <li><a class="dropdown-item" href="#">Narciso Rodriguez</a></li>
-                      <li><a class="dropdown-item" href="#">Hugo Boss</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Women
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Stretch Mark Creams & Oils</a></li>
-                      <li><a class="dropdown-item" href="#">Nutritional Supplements</a></li>
-                      <li><a class="dropdown-item" href="#">Mosquito Repellent</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      natural
-                    </a>
-                    <ul class="dropdown-menu mb-3">
-                      <li><a class="dropdown-item" href="#">Tea Tree Oil</a></li>
-                      <li><a class="dropdown-item" href="#">Eucalyptus Oil</a></li>
-                      <li><a class="dropdown-item" href="#">Rosemary Oil</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  
-              </ul>
-              
-            </div>
-          </div>
-          <a class="navbar-brand" href="index.html">
-            <img class="logo" src="assets/logo.png" alt="">
-          </a>
-        </div>
-    </nav>
+    <div class="whatsapp">
+      <a href="https://wa.me/+919580262936"><span class="fa-brands fa-whatsapp"></span></a>
+    </div>
 
     <nav class="navbar shadow navbar-expand-lg">
       <div class="container">
@@ -125,7 +51,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center flex-grow-1 gap-4 pe-3">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 gap-4 pe-3">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -184,22 +110,44 @@
                 </li>
                 
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+            <div class="search">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control" placeholder="Search">
+              <button class="btn btn-danger"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
           </div>
         </div>
         <div class="cart-User d-flex gap-4">
-          <i class="ms-4 fa-solid fa-user"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <div class="cart-icon ">
+            <button class="cart-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
         
       </div>
-  </nav>
+    </nav>
+
+    <!-- login popup menu -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog d-flex justify-content-center">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <div class="text-end"> <i class="fa fa-close close" data-bs-dismiss="modal"></i> </div>
+                  <h5 class="text-uppercase text-center mb-5">Login / Create Account</h5>
+                  <a href=""><button class="form-control mb-3">Sign in with Mobile/Email <i class="ms-2 fa-solid fa-arrow-right-long"></i></button></a>
+                  <a href=""><button class="form-control"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                    <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path><path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path><path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path><path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                    </svg>Google <i class="ms-2 fa-solid fa-arrow-right-long"></i></button></a>
+              </div>
+          </div>
+      </div>
+      </div>
+      <!-- login popup menu -->
 
     <section class="carousel">
         <div id="sliders" class="carousel slide carousel-fade">
@@ -384,10 +332,10 @@
 						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Vibesss<span>.</span></a></div>
 						<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid necessitatibus laudantium eligendi laborum est ullam iste illum praesentium deserunt numquam, blanditiis eius aperiam, libero, dolorum accusantium eos obcaecati! At!</p>
 						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+							<li><a href="#"><span class="fs-4 fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fs-4 fa fa-brands fa-pinterest-p"></span></a></li>
+							<li><a href="#"><span class="fs-4 fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fs-4 fa fa-brands fa-linkedin"></span></a></li>
 						</ul>
 					</div>
 					<div class="col-lg-8">
@@ -404,7 +352,7 @@
 								<ul class="list-unstyled">
 									<li><a href="#">Privacy Policy</a></li>
 									<li><a href="#">Shipping & Returns</a></li>
-								  <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								  <li class="me-4"><a href="Terms-&-Condition.html">Terms &amp; Conditions</a></li>
 								</ul>
 							</div>
 							<div class="col-6 col-sm-12 col-md-4">
