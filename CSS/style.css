@@ -63,6 +63,12 @@ body{
 @media (max-width:767px) {
   .topbar{
     padding: 0.5rem 1rem !important;
+    display: none !important;
+  }
+}
+@media (max-width:930px) {
+  .topbar{
+    padding: 0.5rem 1rem !important;
   }
 }
 /* top bar css end from here */
