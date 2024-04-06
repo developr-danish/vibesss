@@ -92,6 +92,23 @@ nav img{
     position: relative;
     font-family: "Sniglet", system-ui;
 }
+.navbar-nav{
+  align-items: center;
+}
+.dropdown-menu{
+  --bs-dropdown-border-radius:0px !important; 
+}
+.dropdown-item{
+  padding: 0.7rem !important;
+}
+.nav-item:hover .dropdown-menu{
+  display: block !important;
+}
+@media (max-width:767px) {
+  .navbar-nav{
+    align-items: start;
+  }
+}
 .nav-link:after{
   content: '';
   position: absolute;
