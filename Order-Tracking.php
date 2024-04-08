@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
+        ::-webkit-scrollbar {
+            display:none;
+        }
         .tracking{
             width: 100%;
-            height: 100vh;
+            height: 85vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -42,9 +45,11 @@
             color: #fff;
             border: 1px solid black;
         }
+        
     </style>
 </head>
 <body>
+<?php include 'header.php';?>
     <div class="tracking">
         <form action="">
             <input type="text" name="trackingId" id="trackingid" placeholder="Order ID...">
